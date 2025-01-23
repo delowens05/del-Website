@@ -16,7 +16,38 @@
 html{
   scroll-behavior:smooth;
 }
+@media(max-width:900px){
+  .profolio-project{
+    flex-direction: column;
 
+  }
+  .media-project{
+
+    flex-direction: column;
+
+  }
+
+  .right-section{
+    font-size: 18px;
+  }
+  .home-sec-1{
+    font-size: 40px;
+  }
+  .home-sec-2{
+    font-size: 15px;
+
+  }
+
+  .contact-subs{
+    font-size: 10px;
+  }
+
+  .contact-sec{
+    font-size: 10px;
+  }
+
+
+}
 
 .right-section{
   display: flex;
